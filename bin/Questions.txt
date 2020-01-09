@@ -1,0 +1,47 @@
+GameDriver
+
+1. How was the image added to the button?
+GIcon
+2. What did it have to be imported in as first?
+GIcon
+3. How did I change how the name of the window was displayed? (It was blank before.)
+Using the JFrame constructor
+4. How were the bounds changed to accommodate the button?
+.setBounds()
+5. For the start button, how did I decide on the number 105 in the setbounds method?
+Because it fit below the other button
+
+MapLoader
+
+1. What change did I make to the background graphics to make it "better?"
+Image size
+2. What changes will you need to change/implement for your towers and enemies?
+array
+3. What change did I make to the createTower method?
+Makes an enemy, sets tower to specific place
+4. How is the enemy or the bullet "destroyed?"
+Checks for bullet and enemy position.
+5. How do I get the position of the enemy and the bullet?
+getX and getY
+6. How does it decide when a bullet hit an enemy?
+Checks for position 5 away
+7. Why is the bullet/enemy check so "complicated?"
+
+8. How could you make the bullet/enemy check better?
+9. Instead of destroying the enemy with one bullet, what is an alternative?
+10. How would you know to deduct from the "lives" value?
+
+Tower
+1. What is different from last class's demonstration?
+2. Why was drawImage overrode?
+
+Game Design
+1. The label for lives is in the GameDriver and the Enemies are created in MapLoader. How will you let GameDriver know to deduct from lives?
+2. How will you "stop" the game if lives get to 0?
+3. What will happen if all the enemies are killed?
+4. How will you prevent the creation of a tower if money is 0?
+5. How will your enemies differ?
+6. How will your towers differ?
+7. How or will you make your enemies follow a path?
+8. Share your game strategy with your partner. 
+9. Explain how your game be similar/different?
